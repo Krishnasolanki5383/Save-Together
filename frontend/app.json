@@ -7,11 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "scheme": "savetogether",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0D9488"
-    },
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.savetogether.app"
@@ -33,7 +29,8 @@
         {
           "cameraPermission": "Allow Save Together to access camera for scanning society QR codes."
         }
-      ]
+      ],
+      "expo-asset"
     ]
   }
 }

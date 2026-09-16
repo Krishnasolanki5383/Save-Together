@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, SafeAreaView } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Colors, Typography } from '../../constants/theme';
 import { PrimaryButton } from '../../components/PrimaryButton';

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, SafeAreaView, ScrollView, Share, TouchableOpacity, Alert } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Share, TouchableOpacity, Alert } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import QRCode from 'react-native-qrcode-svg';
 import { Colors, Typography, Shadows } from '../../constants/theme';
 import { PrimaryButton } from '../../components/PrimaryButton';
